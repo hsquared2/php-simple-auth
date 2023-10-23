@@ -1,0 +1,28 @@
+p {
+  margin-bottom: 0;
+}
+
+.header-right {
+  display: flex;
+  align-items: baseline;
+  column-gap: 20px;
+}
+
+.header_container {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-item label {
+  margin-bottom: 5px;
+}
+
+.form-item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.form-btn {
+  margin-top: 10px;
+}
